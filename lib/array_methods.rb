@@ -1,6 +1,7 @@
 def find_element_index(array, value_to_find)
     array.length.times do |count|
     if array[count] == value_to_find
+      count += 1
       return count
     end
     nil
